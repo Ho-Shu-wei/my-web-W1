@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto"><head><script src="../assets/js/color-modes.js"></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.115.4">
+  <title>Blog Template · Bootstrap v5.3</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">
+
+  
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      width: 100%;
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .btn-bd-primary {
+      --bd-violet-bg: #712cf9;
+      --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+      --bs-btn-font-weight: 600;
+      --bs-btn-color: var(--bs-white);
+      --bs-btn-bg: var(--bd-violet-bg);
+      --bs-btn-border-color: var(--bd-violet-bg);
+      --bs-btn-hover-color: var(--bs-white);
+      --bs-btn-hover-bg: #6528e0;
+      --bs-btn-hover-border-color: #6528e0;
+      --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+      --bs-btn-active-color: var(--bs-btn-hover-color);
+      --bs-btn-active-bg: #5a23c8;
+      --bs-btn-active-border-color: #5a23c8;
+    }
+    .bd-mode-toggle {
+      z-index: 1500;
+    }
+  </style>
+
+  
+  <!-- Custom styles for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900&amp;display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="blog.css" rel="stylesheet">
+</head>
+<body style="background-color:#F1EFE9;">
+  
+<svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+<symbol id="aperture" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+  <circle cx="12" cy="12" r="10"></circle>
+  <path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path>
+</symbol>
+<symbol id="cart" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path>
+</symbol>
+<symbol id="chevron-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+</symbol>
+</svg>
+
+<div class="container">
+<header class="border-bottom lh-1 py-3">
+  <div class="row flex-nowrap justify-content-between align-items-center">
+    
+    <div class="col-4 text-center">
+      <h1 class="blog-header-logo text-body-emphasis text-decoration-none" style="color:#876C56;">ABOUT ME !
+    </h1></div>
+    
+  </div>
+</header>
+
+
+</div>
+
+<main class="container" style="background-color:#A98266;">
+<div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+  <div class="col-lg-6 px-0">
+    <h1 class="display-4 fst-italic" style="color:#F1EFE9;"> 🤍 Little Things About Me 🤍</h1>
+<hr>
+  <h2 class="display-5 link-body-emphasis mb-1" style="color:#924D1C;">🤎 Self-Introduction🤎</h2>
+    <p class="lead my-3" style="color:#49382B;"> Hi ! My name is Shu-Wei Ho.I'm a 19 years old student. My hometown is Hsinchu, it is famous for its windy weather. I study in NTNU for Technology Apllication and Human Resourse Development. I want to work in human resources in the future, and I currently have plans to double major in business management. I hope to explore and learn in serveral felds!</p>
+    <p class="lead mb-0"></p>
+  <h2 style="color:#924D1C;" class="display-5 link-body-emphasis mb-1">🤎 Intrest🤎</h2>
+    <p class="lead mb-0"></p>
+  <p class="lead my-3" style="color:#49382B;">Dancing, Reading, Watching Dramas</p>
+  <p class="lead mb-0"></p>
+  <h2 class="display-5 link-body-emphasis mb-1" style="color:#924D1C;">🤎 Nick Name🤎</h2>
+  <p class="lead mb-0"></p>
+  <p class="lead my-3" style="color:#49382B;">Shubi</p>
+    <p class="lead mb-0"></p>
+  <h2 class="display-5 link-body-emphasis mb-1" style="color:#924D1C;">🤎 MBTI🤎</h2>
+  <p class="lead my-3" style="color:#49382B;">ENTJ</p>
+  <p class="lead mb-0"></p>
+
+
+  
+  </div>
+</div>
+
+<hr>
+<div class="row mb-2">
+  <div class="col-md-6">
+    
+  </div>
+  <div class="col-md-6">
+    
+  </div>
+</div>
+
+<div class="row g-5">
+  <div class="col-md-8">
+    <h1 class="pb-4 mb-4 fst-italic border-bottom" style="color:#F1EFE9;">🤍 One Of My Favorite Picture Of Myself 🤍</h1>
+<hr>
+
+    <div class="blog-post">
+      <h3 class="display-5 link-body-emphasis mb-1">picture</h3>
+
+      
+
+      
+      <hr>
+      
+      <h1 class="pb-4 mb-4 fst-italic border-bottom" style="color:#F1EFE9;">🤍 Education 🤍
+    </h1>
+    <hr>
+      
+      <blockquote class="blockquote">
+        
+      </blockquote>
+      
+      
+      
+      <ul>
+        <li style="color:#49382B;">Weige kindergarten (2008-2010)</li>
+        <li style="color:#49382B;">Hsinchu County Shi-Hsing Elementary School (2010-2016)</li>
+        <li style="color:#49382B;">Hsinchu County Cheng-Gong Junior High School (2016-2019)</li>
+        <li style="color:#49382B;">Art talent class (2016-2019)</li>
+        <li style="color:#49382B;">Hsinchu Girl’s Senior High School (2019-2022)</li>
+        <li style="color:#49382B;">National Taiwan Normal University (2022-current)
+</li>
+
+      </ul><hr>
+      <h1 class="pb-4 mb-4 fst-italic border-bottom" style="color:#F1EFE9;">🤍 My Important Moment 🤍</h1><hr>
+<ul>
+        <li style="color:#49382B;">Taiwan Music Competition in the piano category, Second place (2014)</li>
+        <li style="color:#49382B;">National student competition of Music in the Symphonic Band category, the Excellent Award (2016-2018)</li>
+        <li style="color:#49382B;">National student competition of Music in the Orchestra category, the High Distinction Award (2016-2018)</li>
+        <li style="color:#49382B;">National student competition of Music in the Orchestra category, the First Place (2020)</li>
+        <li style="color:#49382B;">參與天主教會嘉義教區的小天使生活營志工服務 (2019)</li>
+        <li style="color:#49382B;">參與障友知性之旅花束義賣及募發票 (2019)</li>
+        <li style="color:#49382B;">參與台灣築心全人生命教育關懷協會築心之家志願服務 (2019)</li>
+        <li style="color:#49382B;">參加SEMI High Tech U (2020)</li>
+        <li style="color:#49382B;">國立新竹女中小論文比賽入選 (2020)</li>
+        <li style="color:#49382B;">全國高級中等學校閱讀心得寫作比賽, the First place (2020)</li>
+        <li style="color:#49382B;">National student competition of Music, Oboe solo, the First place（2021）</li>
+        <li style="color:#49382B;"> 擔任沂風哲學思辨社的公關兼活動幹部 (2021)</li>
+        <li style="color:#49382B;">協辦清華哲學季「清華X竹女哲學日」(2021)</li>
+        <li style="color:#49382B;">國立新竹女中沂風哲學思辨社評鑑, the Highest Awards (2021)</li>
+        <li style="color:#49382B;">GEPT Intermediate certificate (2022)</li>
+        <li style="color:#49382B;">NTNU 書卷獎（2023)</li>
+
+
+
+      </ul>
+      <hr>
+    
+      <h1 class="pb-4 mb-4 fst-italic border-bottom" style="color:#F1EFE9;">Contact 🤍</h1>
+
+      
+<hr>
+<p style="color:#49382B;">Instagram:@shubi_egg</p><p style="color:#49382B;">Line:rebecca.wei.1023</p><p style="color:#49382B;">Phone Number:0936898908</p><p style="color:#49382B;">Gmail:rebecca.wei.1023@gmail.com</p>
+
+      
+    </div>
+
+  </div>
+
+  <div class="col-md-4">
+    <div class="position-sticky" style="top: 2rem;">
+      <div class="p-4 mb-3 bg-body-tertiary rounded">
+        
+        
+      </div>
+
+      <div class="p-4">
+        
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+
+</body></html>
